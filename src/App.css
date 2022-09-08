@@ -1,0 +1,55 @@
+:root {
+  --theme: 'light';
+  --theme-light--background-color: #00000007;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #292936; */
+  /* color: #fff; */
+  position: relative;
+  min-height: 100vh;
+  /* background-color: #eee; */
+  /* background-color: #00000007; */
+  /* background-color: #F8F8F8; */
+}
+
+
+img {
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App.theme--light {
+  background-color: #00000007;
+}
+
+.App.theme--dark {
+  background-color: #024;
+  background-color: #1E1E1E;
+  color: #fff;
+}
+.App__normal {background-color: #aaa;}
+.App__grass {background-color: #0fc;}
+.App__fire {background-color: #fb2;}
+.App__water {background-color: #2df;}
+.App__bug {background-color: #0d8;}
+.App__flying {background-color: #b88;}
+.App__poison {background-color: #88b;}
+.App__electric {background-color: #e9ffbe;}
+.App__fighting {background-color: #822;}
+.App__rock {background-color: #aaa;}
+.App__ground {background-color: #5e5b57;}
+.App__ghost {background-color: #35556e;}
+.App__dark {background-color: #373436;}
+.App__fairy {background-color: #d3a7b1;}
+.App__ice {background-color: #9b93b6;}
+.App__psychic {background-color: #9a47;}
+.App__dark {background-color: #024;}

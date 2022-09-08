@@ -1,0 +1,53 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffa;
+    flex-grow: 1;
+    margin: 2em;
+}
+
+.home__header {
+    text-align: center;
+}
+
+.home__logo {
+    max-width: 480px;
+}
+
+.home__title {
+    color: red;
+}
+
+.home__form {
+    display: flex;
+    gap: 20px;
+}
+
+.home__input {
+    box-shadow: 0 0 1px 1px #0003;
+    padding: 0.6em;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.home__button {
+    box-shadow: 0 0 1px 1px #0003;
+    padding: 0.6em;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    flex-grow: 1;
+}
+
+.home__lines__container {}
+
+.home__lines {}
+
+.home__line__red {}
+
+.home__pokeball {}
+
+.home__line__black {}

@@ -1,0 +1,120 @@
+.pokemon {
+    max-width: 15rem;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.theme--dark .pokemon {
+    background-color: black;
+    background-color: #234;
+    /* box-shadow: -3px 0px 5px 2px; */
+}
+
+.pokemon:hover {
+    transform: scale(1.05);
+    transition: transform 200ms;
+}
+
+.pokemon:hover .pokemon__img,
+.pokemon:hover .pokemon__name {
+    /* width: 10em; */
+    transform: scale(1.1);
+    transition: transform 400ms ease-in-out;
+}
+
+
+.pokemon__header {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon__img {
+    /* width: 70%; */
+    width: 9em;
+    z-index: 2;
+
+}
+
+.pokemon__bkg__list {
+    list-style: none;
+    height: 63%;
+    position: absolute;
+    width: 110%;
+    display: flex;
+    margin: 0;
+    overflow: hidden;
+    transform: skewX(-15deg) scaleX(1.2);
+    left: -9px;
+}
+
+.pokemon__bkg__list--item {
+    height: 100%;
+    flex-grow: 1;
+    top: -12px;
+    left: -3px;
+    position: relative;
+}
+
+
+.pokemon__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.pokemon__name {
+    text-align: center;
+    filter: brightness(0.7);
+    text-transform: capitalize;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.pokemon__types {
+    text-transform: capitalize;
+}
+
+.pokemon__types__title {
+    opacity: 0.3;
+    /* font-weight: bold; */
+    text-shadow: 0 0 2px;
+    font-size: 0.9em;
+}
+
+.pokemon__stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pokemon__stat__item {
+    padding: 0;
+    margin: 0;
+    flex-basis: 48%;
+    flex-grow: 1;
+}
+
+.pokemon__stat__item--title {
+    opacity: 0.4;
+    margin: 0;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.pokemon__stat__item--value {
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+.pokemon__footer {
+    padding-bottom: 0.5em;
+}
